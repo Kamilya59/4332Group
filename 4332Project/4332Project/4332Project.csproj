@@ -61,6 +61,9 @@
     <Compile Include="Students\Hananov_4332.xaml.cs">
       <DependentUpon>Hananov_4332.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Students\Ibragimova.xaml.cs">
+      <DependentUpon>Ibragimova.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Students\Novikov_4332.xaml.cs">
       <DependentUpon>Novikov_4332.xaml</DependentUpon>
     </Compile>
@@ -99,6 +102,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Students\Hananov_4332.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Students\Ibragimova.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

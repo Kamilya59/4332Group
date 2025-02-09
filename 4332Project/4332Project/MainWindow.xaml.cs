@@ -74,5 +74,10 @@ namespace _4332Project
         {
             new Mikhaylova4332().Show();
         }
-    }
+
+		private void ParashaButton_Click(object sender, RoutedEventArgs e)
+		{
+            new Ibragimova().Show();                            
+		}
+	}
 }
