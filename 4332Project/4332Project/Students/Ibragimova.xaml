@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:_4332Project.Students"
         mc:Ignorable="d"
         Title="Ibragimova" Height="450" Width="800">
-    <Grid Background="Azure">
+    <Grid Background="Azure" Margin="0,0,-132,-16">
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50">Ибрагимова К.Р. 4332</TextBlock>
+        <Button Height="20" Width="100" Margin="252,265,448,119" Click="Button_Click">Импорт данных</Button>
+        <Button Height="20" Width="100" Margin="400,265,300,119" Click="Button_Click_1" RenderTransformOrigin="-0.419,-0.062">Экспорт данных</Button>
     </Grid>
 </Window>

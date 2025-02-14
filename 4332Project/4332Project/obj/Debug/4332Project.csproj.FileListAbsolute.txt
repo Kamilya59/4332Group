@@ -241,3 +241,11 @@ C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\Л�
 C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\obj\Debug\4332Project.pdb
 C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\obj\Debug\Students\Ibragimova.g.cs
 C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\obj\Debug\Students\Ibragimova.baml
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\obj\Debug\4332Project.csproj.ResolveComReference.cache
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\obj\Debug\4332Project_Content.g.cs
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\bin\Debug\EntityFramework.dll
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\bin\Debug\EntityFramework.xml
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Камиля\OneDrive\Рабочий стол\3 курс\ИСРПО\ЛАб1\4332Project\4332Project\obj\Debug\4332Project.csproj.CopyComplete

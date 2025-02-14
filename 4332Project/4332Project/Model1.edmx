@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище ISRPO_2_ParashaModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Zakazi">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Kod_Zakaza" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="data_cozdaniya" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="vremya_zakaza" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="kod_clienta" Type="int" Nullable="false" />
+          <Property Name="uslugi" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="data_zakritiya" Type="nvarchar" MaxLength="50" />
+          <Property Name="vremya_prokata" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Хранилище ISRPO_2_ParashaModelContainer">
+          <EntitySet Name="Zakazi" EntityType="Self.Zakazi" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ISRPO_2_ParashaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Zakazi">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Kod_Zakaza" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="data_cozdaniya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="vremya_zakaza" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="kod_clienta" Type="Int32" Nullable="false" />
+          <Property Name="uslugi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="data_zakritiya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="vremya_prokata" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ISRPO_2_ParashaEntities3" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Zakazi" EntityType="Self.Zakazi" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище ISRPO_2_ParashaModelContainer" CdmEntityContainer="ISRPO_2_ParashaEntities3">
+          <EntitySetMapping Name="Zakazi">
+            <EntityTypeMapping TypeName="ISRPO_2_ParashaModel.Zakazi">
+              <MappingFragment StoreEntitySet="Zakazi">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Kod_Zakaza" ColumnName="Kod_Zakaza" />
+                <ScalarProperty Name="data_cozdaniya" ColumnName="data_cozdaniya" />
+                <ScalarProperty Name="vremya_zakaza" ColumnName="vremya_zakaza" />
+                <ScalarProperty Name="kod_clienta" ColumnName="kod_clienta" />
+                <ScalarProperty Name="uslugi" ColumnName="uslugi" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="data_zakritiya" ColumnName="data_zakritiya" />
+                <ScalarProperty Name="vremya_prokata" ColumnName="vremya_prokata" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
