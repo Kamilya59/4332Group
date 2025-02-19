@@ -6,9 +6,11 @@
         xmlns:local="clr-namespace:_4332Project.Students"
         mc:Ignorable="d"
         Title="Ibragimova" Height="450" Width="800">
-    <Grid Background="Azure" Margin="0,0,-132,-16">
+    <StackPanel Background="Azure" Margin="0,0,-132,-16">
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50">Ибрагимова К.Р. 4332</TextBlock>
-        <Button Height="20" Width="100" Margin="252,265,448,119" Click="Button_Click">Импорт данных</Button>
-        <Button Height="20" Width="100" Margin="400,265,300,119" Click="Button_Click_1" RenderTransformOrigin="-0.419,-0.062">Экспорт данных</Button>
-    </Grid>
+        <Button x:Name="ExportButton" Content="Импорт данных" Margin="30 10 0  0" Width="150"  Click="Button_Click"></Button>
+        <Button x:Name="ImportButton" Content="Экспорт в Excel" Margin="0 10 30 0" Width="150"  Click="Button_Click_1"></Button>
+        <Button x:Name="JsonImportButton" Content="Импорт JSON данных" Margin="0 10 30 0" Width="150" Click="JsonImportButton_Click"/>
+        <Button x:Name="JsonExportButton" Content="Экспорт в Word" Margin="30 10 0  0" Width="150" Click="JsonExportButton_Click"/>
+    </StackPanel>
 </Window>
